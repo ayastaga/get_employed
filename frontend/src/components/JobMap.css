@@ -1,0 +1,74 @@
+.mapboxgl-popup-content {
+    font-family: var(--font-sans);
+    padding: 10px;
+    border-radius: 20px;
+    width: 17rem;
+}
+
+.mapboxgl-popup-close-button {
+    display: none;
+}
+
+.card-container {
+    border-radius: 1rem;
+    padding: 1rem;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.state-label {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.card-label {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.card-list-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card-list-item {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.job-title{
+    font-weight: 500; 
+    font-size: 0.875rem;
+    display: block;
+}
+.job-title:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.company-title {
+    color: #3d4550;
+}
+.company-title:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.posting-time {
+    color: #4b5563;
+}
+
+.last-updated {
+    background-color: #c0c1c4;
+    color: white;
+    padding-left: 4px;
+    display: none;
+}
+
+.applicant-count {
+    font-size: 0.75rem;
+    color: #9ca3af;
+}
